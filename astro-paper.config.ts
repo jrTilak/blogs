@@ -21,7 +21,7 @@ export default defineAstroPaperConfig({
     lightAndDarkMode: true,
     dynamicOgImage: true,
     showArchives: true,
-    showBackButton: true,
+    showBackButton: false,
     editPost: {
       enabled: true,
       url: "https://github.com/jrtilak/blogs/edit/main/",
@@ -30,7 +30,7 @@ export default defineAstroPaperConfig({
   },
   socials: [
     { name: "github", url: "https://github.com/jrtilak" },
-    { name: "x", url: "https://x.com/jrtilak" },
+    { name: "x", url: "https://x.com/jrtilak_dev" },
     { name: "linkedin", url: "https://www.linkedin.com/in/jrtilak/" },
     { name: "mail", url: "mailto:contact@jrtilak.dev" },
   ],
