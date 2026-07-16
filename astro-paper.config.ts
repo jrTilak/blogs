@@ -3,11 +3,11 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://blogs.jrtilak.dev/",
-    title: "jrtilak.dev",
-    description: "Blogs of jrtilak.dev",
-    author: "jrtilak",
+    title: "Blogs - jrtilak.dev",
+    description: "Notes on building clean, scalable products for web and mobile.",
+    author: "Tilak Thapa",
     profile: "https://jrtilak.dev",
-    ogImage: "default-og.jpg",
+    ogImage: "og.png",
     lang: "en",
     timezone: "Asia/Kathmandu",
     dir: "ltr",
@@ -29,10 +29,10 @@ export default defineAstroPaperConfig({
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/jrtilak" },
-    { name: "x",        url: "https://x.com/jrtilak" },
+    { name: "github", url: "https://github.com/jrtilak" },
+    { name: "x", url: "https://x.com/jrtilak" },
     { name: "linkedin", url: "https://www.linkedin.com/in/jrtilak/" },
-    { name: "mail",     url: "mailto:jrtilak@contact.com" },
+    { name: "mail", url: "mailto:contact@jrtilak.dev" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
