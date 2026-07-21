@@ -1,9 +1,11 @@
 ---
 import { Font } from "astro:assets";
+import { PUBLIC_GOOGLE_ANALYTICS_ID } from "astro:env/client";
 import { ClientRouter } from "astro:transitions";
 import { getRelativeLocaleUrl } from "astro:i18n";
 import { resolveDefaultOgImagePath } from "@/utils/resolveDefaultOgImagePath";
 import { getAssetPath } from "@/utils/withBase";
+import GoogleAnalytics from "@/components/GoogleAnalytics.astro";
 import config from "@/config";
 import "@/styles/global.css";
 
@@ -28,6 +30,9 @@ const rssHref = getRelativeLocaleUrl(
   Astro.currentLocale ?? config.site.lang,
   "rss.xml"
 );
+const googleAnalyticsId = import.meta.env.PROD
+  ? PUBLIC_GOOGLE_ANALYTICS_ID
+  : undefined;
 ---
 
 <!doctype html>
@@ -39,6 +44,7 @@ const rssHref = getRelativeLocaleUrl(
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {googleAnalyticsId && <GoogleAnalytics measurementId={googleAnalyticsId} />}
     <link rel="icon" type="image/svg+xml" href={getAssetPath("favicon.svg")} />
     <link rel="icon" href={getAssetPath("favicon.ico")} />
     <link rel="canonical" href={canonicalURL} />
