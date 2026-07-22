@@ -2,7 +2,7 @@
 title: "Chess999: Engineering a Full-Stack Chess Platform"
 description: "How I built core gameplay, Stockfish analysis, online multiplayer, cross-platform game imports, and subscription infrastructure for Chess999."
 pubDatetime: 2026-07-22T00:00:00Z
-featured: true
+featured: false
 tags:
   - projects
   - case-study

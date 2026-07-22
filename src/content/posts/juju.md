@@ -2,7 +2,7 @@
 title: "JuJu: Building the Backend Behind a Personalized Video Feed"
 description: "My backend and admin contributions to JuJu's APIs, recommendation service, media pipeline, live-stream support, and moderation workflows."
 pubDatetime: 2026-07-21T00:00:00Z
-featured: true
+featured: false
 tags:
   - projects
   - case-study

@@ -2,7 +2,7 @@
 title: "NextPostAI: Building a Multi-Platform Publishing Pipeline"
 description: "My contributions to NextPostAI's application foundation, AI generation, multi-platform publishing, scheduling, and billing."
 pubDatetime: 2026-07-21T00:00:00Z
-featured: true
+featured: false
 tags:
   - projects
   - case-study

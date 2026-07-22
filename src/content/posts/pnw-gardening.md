@@ -2,7 +2,7 @@
 title: "PNW Gardening: Building a Mobile-First Garden Companion"
 description: "How I led the initial Next.js web implementation for location-aware weather, plant discovery, garden tracking, notes, and harvest planning."
 pubDatetime: 2026-07-22T00:00:00Z
-featured: true
+featured: false
 tags:
   - projects
   - case-study

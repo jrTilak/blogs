@@ -2,7 +2,7 @@
 title: "RemoteWorkFromAnywhere: Building a Remote Job Aggregation Pipeline"
 description: "How I built the initial job board and ingestion pipeline across source-specific scraping, normalization, remote-role screening, search, and scheduling."
 pubDatetime: 2026-07-22T00:00:00Z
-featured: true
+featured: false
 tags:
   - projects
   - case-study
