@@ -15,7 +15,7 @@ draft: false
 
 [JuJu](https://jujuconnect.com/) is a short-form video and music community published by Uncle Sams Tech LLC. Its mobile app gives creators a place to publish videos, reuse music, interact with other users, and discover content through a personalized feed.
 
-From December 2024 to May 2025, I worked on JuJu in a backend-focused role within a small team. A coworker and I shared the backend and admin work: my focus was most of the backend and APIs, and I also contributed to the admin panel. The consumer mobile application was outside my scope.
+From December 2024 to May 2025, I worked on JuJu in a backend-focused role within a small team, building most of the backend APIs and most of the admin tooling. The consumer mobile application was outside my scope.
 
 ![The current JuJu website showing the product and its mobile-store availability](./assets/juju-platform.png)
 
@@ -41,7 +41,7 @@ It used a staged pipeline:
 1. **Collect signals.** Watch duration, full watches, loops, likes, comments, shares, and bookmarks described how strongly a person engaged with a video. Very short watches acted more like skips than positive interest.
 2. **Generate candidates.** The service looked up precomputed neighbor candidates for videos in recent watch history, narrowing the pool before ranking.
 3. **Rank by intent.** It adjusted stored neighbor scores using the viewer's weighted interaction with each seed video, then sorted and deduplicated the resulting candidates.
-4. **Apply safety filters.** Previously watched and moderation-rejected videos were removed; for signed-in users, the service also filtered content from blocked creators.
+4. **Apply safety filters.** Personalized candidates were filtered against watch history and moderation-rejected videos; for signed-in users, the service also applied blocked-creator filtering.
 5. **Handle cold starts.** When personalized candidates were limited, the feed filled the gap with trending and recent videos. Trending scores used engagement plus time decay so older content did not remain dominant forever.
 
 Redis cached watch history and recommendation candidates for both authenticated and guest sessions. That reduced repeated database work while still allowing the feed to be recalculated as new interactions arrived.
