@@ -26,7 +26,7 @@ My work covered the systems behind uploading, discovering, streaming, and modera
 - Built and extended TypeScript and Express APIs for videos, music, tracks, uploads, hashtags, location discovery, visibility, moderation, and video and music interaction states; integrated blocked-user filtering into feed retrieval.
 - Co-developed the recommendation service and expanded its feed orchestration, interaction-based ranking, Redis caching, trending and recent fallbacks, music-feed selection, and watched, rejected, and blocked-content filtering.
 - Built a separate video post-processing service that moved uploads into Cloudflare Stream, extracted reusable audio with FFmpeg, stored media in Cloudflare R2, and tracked processing states.
-- Implemented backend support for Cloudflare-powered live streams and their interactions, including playback data, reactions, comments, and viewer activity.
+- Implemented backend support for **Cloudflare-powered live streams** and their interactions, including playback data, reactions, comments, and viewer activity.
 - Built moderation APIs and contributed admin workflows for reviewing reported videos, music, tracks, and user accounts.
 - Worked across the main API, recommendation service, media processor, admin server, and React admin client inside a Turborepo monorepo.
 
