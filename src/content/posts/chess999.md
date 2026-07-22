@@ -65,4 +65,4 @@ For me, Chess999 demonstrates full-stack ownership across a state-heavy interfac
 
 **[Visit Chess999](https://chess999.com/)**
 
-> Chess999 is a product of Uncle Sams Tech LLC. This article describes only my contribution at a high level. The private source code is not reproduced, and the screenshots come from public, logged-out pages captured after their API data finished loading.
+> Chess999 is a product of Uncle Sams Tech LLC. This article describes only my contribution at a high level. The private source code is not reproduced, and the screenshots come from public, logged-out pages.
