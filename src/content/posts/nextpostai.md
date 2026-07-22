@@ -27,7 +27,6 @@ My work covered the path from creating a project to generating, scheduling, and 
 - Developed the Gemini-powered generation pipeline for producing platform-specific content from project and campaign context.
 - Implemented automatic publishing for X, Facebook Pages, Threads, and Reddit, plus the persistent scheduling flow that mapped accounts, dispatched posts, and tracked publishing states and errors.
 - Co-built the campaign planner across its backend and interface, including platform selection, campaign-day generation, media handling, and responsive workflows.
-- Migrated the data layer from Mongoose to Prisma while retaining MongoDB Atlas.
 - Contributed to Stripe checkout, subscriptions, trials, webhooks, and payment-completion flows.
 - Built product UI around campaigns, scheduled posts, account connections, media, pricing, and billing.
 
@@ -57,7 +56,7 @@ The stack I worked with included Next.js 14, React, TypeScript, MongoDB Atlas th
 
 ## Result
 
-NextPostAI became a live production SaaS, and its public product counter reported 181 registered users as of July 21, 2026. It gave users one workflow for moving from a product idea to generated campaigns and scheduled posts across several social platforms.
+NextPostAI became a live production SaaS, and its public product counter reported 181 active users as of July 21, 2026. It gave users one workflow for moving from a product idea to generated campaigns and scheduled posts across several social platforms.
 
 This project taught me that reliable integrations are built around boundaries: each provider keeps its own rules, while the product supplies a consistent workflow, persistent state, and enough observability to understand what happened.
 
