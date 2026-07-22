@@ -24,7 +24,7 @@ export default defineAstroPaperConfig({
     showBackButton: false,
     editPost: {
       enabled: true,
-      url: "https://github.com/jrtilak/blogs/edit/main/",
+      url: "https://github.com/jrtilak/blogs/edit/master/",
     },
     search: "pagefind",
   },
